@@ -1,0 +1,311 @@
+body {
+  background-color:#f2f5f7;
+font-family: "Gill Sans", sans-serif;
+  
+  }
+
+main {background-color:lightgray;
+
+
+}
+
+
+a {
+  
+text-decoration:none;
+color:inherit;
+
+}
+
+/* EMPIEZA HEADER  */
+
+.headerPrincipal .container  {
+
+            color:white;
+            padding:33px;
+            margin:15px;
+
+            display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100vw;
+       
+        }
+
+.headerPrincipal-titulo {
+  
+  color:black;
+  font-size: 40px;
+
+}
+
+
+.headerPrincipal-nav-link {
+
+padding:3px;
+margin:4px;
+border:6px;
+background-color:	 #b30059;
+border-color: black;
+
+
+}
+
+
+h1 {
+
+
+
+  align-content: center;
+  color: #33cc33;
+  margin-left: 10px;
+}
+
+.contenidoPrincipal {
+  display: flex;
+flex-wrap: wrap;
+align-content: space-evenly;
+}
+
+.contenidoPrincipal-cursos-link {
+
+
+
+
+padding:10px;
+margin:33px;
+border:22px;
+background-color:	white;
+box-shadow: 2px 2px 1px #888888;
+
+text-align: center;
+line-height: 20px;
+}
+
+.contenidoPrincipal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.contenidoPrincipal-cursos-link:nth-child(even) a:before {
+	background: url(../Practica/background1.svg) no-repeat;	
+}
+
+.contenidoPrincipal-cursos-link:nth-child(odd) a:before {
+	background: url(../Practica/background2.svg) no-repeat;
+}
+
+.videoSobre .container {
+background-color: #4f9af0;
+
+}
+
+.videoSobre-video {
+
+  padding:10px;
+margin:33px;
+border:22px;
+
+}
+
+.headerPrincipal-nav-link {
+
+
+  border: 2px solid #4CAF50;
+
+
+background-color: white;
+color: gray;
+border-radius: 5px;
+
+
+
+  padding:12px;
+margin:6px;
+border:6px;
+
+
+}
+
+
+a:hover {
+  background-color: #e3e1e1;
+}
+
+
+h2 {
+
+    padding:10px;
+margin:33px;
+border:22px;
+ font-size: 30px;
+
+}
+
+
+.videoSobre-sobre .videoSobre-sobre-title {
+
+ font-size: 30px;
+ color: white;
+font-weight: bold;
+
+}
+
+.videoSobre-sobre .videoSobre-sobre-item {
+
+
+
+font-size: 23px;
+line-height: 2;
+color: white;
+font-weight: bold;
+
+}
+
+.videoSobre-button {
+
+
+    background-color:#d95f5f;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+
+      padding:12px;
+margin:22px;
+border:22px;
+
+font-size: 27px;
+
+
+}
+
+
+
+
+
+
+
+
+ /* 
+ 
+ ____|  _ \   _ \ __ __| ____|  _ \ 
+ |     |   | |   |   |   __|   |   |
+ __|   |   | |   |   |   |     __ < 
+_|    \___/ \___/   _|  _____|_| \_\
+                                     */
+
+	          /* <!-- AQUI EMPIEZA SECC 3 : VIDEO + CTA --> */
+
+
+
+
+
+
+/* NAV CLASS rodapePrincipal-navMap-list */
+
+
+  /* COLOR DE FONDO  */
+
+.rodapePrincipal .container {
+
+  background-color:#2a5670;
+
+}
+
+/* SUBTITULO CON LEYENDA "MAPA DE CURSOS" */
+
+h3 {
+    font-size: 27px;
+line-height: 2;
+color: white;
+
+}
+
+/* ESTO AFECTA el texto en LISTA DE MAPA DE CURSOS */
+
+.rodapePrincipal-navMap-link {
+
+  font-size: 16px;
+line-height: 2;
+color: white;
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* H4 ES EL TIPO DE HEADER DE LOS SUBTITULOS  */
+
+h4 {
+color: green;
+  font-size: 19px;
+
+}
+
+
+/* CLASS DE SUBTITULO DE COLORES */
+
+navmap-list-title navmap-list-title-backend
+
+navmap-list-title navmap-list-title-frontend
+
+navmap-list-title navmap-list-title-framework
+
+navmap-list-title navmap-list-title-bancoDeDados
+
+
+
+	          /* <!-- AQUI EMPIEZA SECC 4 : LOGOS DE ABAJO --> */
+.rodapePrincipal-patrocinadores{
+  background-color: black;
+}
+
+.rodapePrincipal-patrocinadores-list {
+width: 100vw;
+background-color: gray;
+/* border-radius: 5px; */
+  padding:12px;
+/* border:55px; */
+ display: flex;
+ flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+/* FORMA  */
+
+/* FORM CLASS::: rodapePrincipal-contatoForm */
+
+.rodapePrincipal-contatoForm {
+
+padding:10px;
+margin:33px;
+border:22px;
+
+}
+
+/* TEXTO DE LEYENDA DE LA FORMA  */
+
+rodapePrincipal-contatoForm-legend
+
+/* DIV DEL BOTON + DEJA TU CORREO */
+
+rodapePrincipal-contatoForm-fieldset
+
+/* CLASE DEL INPUT */
+
+rodapePrincipal-contatoForm-emailInput
+
+/* CLASE DEL BOTON */
+
+rodapePrincipal-contatoForm-submit
